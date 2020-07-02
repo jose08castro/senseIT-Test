@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col">
+        <div *ngFor="let client of clients">
+            <div class="container cliCard">
+                <div class="row">
+                    <div class="col-9">
+                        <div class="subsection">
+                            <h2>{{client.contactName}} - {{client.id}}</h2>
+                            {{client.contactTitle}}
+                        </div>
+                        <div><span>Company: </span>{{client.companyName}}</div>
+                        <div><span>Address: </span>{{client.address}}, {{client.city}}, {{client.country}} - {{client.postalCode}}</div>
+                        <div><span>Phone: </span>{{client.phone}}, <span>Fax: </span>{{client.fax}}</div>
+                    </div>
+                    <div class="col-3 center">
+                        <a class="ghost-button" (click)="onSelect(client)">Ver ordenes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <app-order-list [order]="selectedOrder"></app-order-list>
+    </div>
+</div>

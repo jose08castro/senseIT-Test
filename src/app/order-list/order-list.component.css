@@ -1,0 +1,47 @@
+.cliCard{
+    padding: 20px 0px 20px;
+}
+
+h2{
+    color: #1d1d1f;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-bottom: 1px;
+}
+
+span{
+    color: #1d1d1f;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.subsection {
+    margin-bottom: 2px;
+    font-size: 9pt;
+}
+
+.subsection span{
+    font-size: 9pt;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghost-button {
+    color: #0f75bf;
+    border: 1px solid #0f75bf;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+
+.ghost-button:hover {
+  background-color: #0f75bf;
+  color: #ffffff;
+}

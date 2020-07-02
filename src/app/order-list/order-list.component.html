@@ -1,0 +1,27 @@
+
+<div *ngIf="order">
+    <div class="cliCard">
+        <h2> {{order.customerId}}</h2>
+        <div><span>Ship Name: </span>{{order.shipName}}</div>
+        <div><span>Ship Address: </span>{{order.shipAddress}}, {{order.shipCity}}, {{order.shipCountry}} - {{order.shipPostalCode}}</div>
+        <div><span>Order Date: </span>{{order.orderDate}}</div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Discount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let o of order.orderDetails">
+            <td>{{o.productId}}</td>
+            <td>{{o.unitPrice}}</td>
+            <td>{{o.quantity}}</td>
+            <td>{{o.discount}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
