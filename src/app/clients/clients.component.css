@@ -50,3 +50,7 @@ span{
 .fillColor{
     background-color: #f7f7f7;
 }
+
+.backgroundLogo{
+    background-image: url("../../assets/grupoIntecaLogo.png");
+}
