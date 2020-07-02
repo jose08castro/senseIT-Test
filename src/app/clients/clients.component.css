@@ -35,11 +35,11 @@ span{
     color: #0f75bf;
     border: 1px solid #0f75bf;
     outline: none;
-    text-decoration: none;
     border-radius: 15px;
     cursor: pointer;
     padding: 5px 10px 5px 10px;
     text-align: center;
+    font-size: 0.91em;
 }
 
 .ghost-button:hover {
@@ -50,4 +50,3 @@ span{
 .fillColor{
     background-color: #f7f7f7;
 }
-

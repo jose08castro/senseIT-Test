@@ -1,5 +1,5 @@
 .cliCard{
-    padding: 20px 0px 20px;
+    padding: 20px 20px;
 }
 
 h2{
@@ -30,18 +30,12 @@ span{
     align-items: center;
 }
 
-.ghost-button {
-    color: #0f75bf;
-    border: 1px solid #0f75bf;
-    outline: none;
-    text-decoration: none;
-    border-radius: 15px;
-    cursor: pointer;
-    padding: 5px 10px 5px 10px;
-    text-align: center;
+table{
+    margin-left: 20px;
 }
 
-.ghost-button:hover {
-  background-color: #0f75bf;
-  color: #ffffff;
+thead{
+    background-color: #0f75bf;
+    color: #ffffff;
 }
+
